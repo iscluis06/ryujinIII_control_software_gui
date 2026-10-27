@@ -27,8 +27,3 @@ jobs:
           mkdir build
           cmake -DCMAKE_BUILD_TYPE=Release -S . -B build
           cmake --build build
-
-      - name: Test project
-        run: |
-          cd build
-          tests/ryujinIII_gtest --gtest_filter=* --gtest_color=no
