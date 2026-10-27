@@ -20,8 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           apt-get update
-          apt-get install -y cmake build-essential git curl libusb-1.0-0 libusb-1.0-0-dev libargs-dev
-          apt-get install -y googletest google-mock libgmock-dev libgtest-dev
+          apt-get install -y cmake pkgconf-bin pkgconf libgtkmm-4.0-0 libgtkmm-4.0-dev build-essential git curl libusb-1.0-0 libusb-1.0-0-dev libargs-dev
 
       - name: Build project
         run: |
