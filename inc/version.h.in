@@ -1,0 +1,10 @@
+//
+// Created by luis on 12/10/26.
+//
+
+#ifndef RYUJINIII_GUI_VERSION_H
+#define RYUJINIII_GUI_VERSION_H
+
+#define RYUJINIII_GUI_VERSION "@PROJECT_VERSION@"
+
+#endif // RYUJINIII_GUI_VERSION_H

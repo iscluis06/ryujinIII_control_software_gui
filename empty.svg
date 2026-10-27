@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Background Container -->
+  <rect width="400" height="300" fill="#f3f4f6" rx="8" />
+  <rect x="1" y="1" width="398" height="298" fill="none" stroke="#e5e7eb" stroke-width="2" rx="8" />
+  
+  <!-- Large Placeholder Graphic (~80% of height) -->
+  <g transform="translate(68, 25) scale(5.5)" fill="none" stroke="#9ca3af" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="48" height="38" rx="4" />
+    <circle cx="13" cy="13" r="3.5" />
+    <path d="M48 27l-12-12-20 20" />
+    <path d="M28 23l-6-6-14 14" />
+  </g>
+  
+  <!-- Title Positioned near Bottom -->
+  <text x="200" y="278" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#4b5563" text-anchor="middle">
+    Empty
+  </text>
+</svg>
